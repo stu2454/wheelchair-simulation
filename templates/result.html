@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Simulation Result</title>
+</head>
+<body>
+    <h1>Simulation Output</h1>
+    <div>{{ simulation_output|safe }}</div>
+    <h2>Plots</h2>
+    <img src="data:image/png;base64,{{ plot_url1 }}" alt="Cumulative Repair Cost vs Replacement Threshold">
+    <img src="data:image/png;base64,{{ plot_url2 }}" alt="Insurance Pool Balance Over Time">
+</body>
+</html>

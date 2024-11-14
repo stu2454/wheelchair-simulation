@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Simulation Input</title>
+</head>
+<body>
+    <form action="/run_simulation" method="post">
+      <label>Lifespan:</label><input type="number" name="lifespan"><br>
+      <label>Initial Cost:</label><input type="text" name="initial_cost"><br>
+      <label>Maintenance Budget:</label><input type="text" name="maintenance_budget"><br>
+      <label>Major Repair Cost:</label><input type="text" name="major_repair_cost"><br>
+      <label>Repair Probability:</label><input type="text" name="repair_prob"><br>
+      <label>Replacement Cost:</label><input type="text" name="replacement_cost"><br>
+      <label>Replacement Threshold (%):</label><input type="text" name="replacement_threshold"><br>
+      <label>Insurance Contribution:</label><input type="text" name="insurance_contribution"><br>
+      <label>User Intensity:</label><input type="text" name="user_intensity"><br>
+      <label>Decision Margin (%):</label><input type="text" name="decision_margin"><br>
+      <label>Specific Year for Major Repair:</label><input type="text" name="specific_year"><br>
+      <label>Specific Major Repair Cost ($):</label><input type="text" name="specific_major_repair_cost"><br>
+      <button type="submit">Run Simulation</button>
+    </form>
+</body>
+</html>
